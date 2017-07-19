@@ -10,7 +10,7 @@ import android.view.View;
 
 public class Practice5DrawOvalView extends View {
 
-    Paint mPaint = new Paint();
+    Paint mPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
     RectF rectF = new RectF(300,300,1000,600);
 
     public Practice5DrawOvalView(Context context) {
